@@ -1,0 +1,242 @@
+.sh {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 2rem;
+    padding-bottom: 5.5rem;
+    gap: 5.5rem;
+}
+.area_sh {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.sh_caja {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.skill {
+    display: flex;
+    width: 13rem;
+    height: 12.875rem;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 0.5rem;
+    background: var(--blanco);
+}
+
+.sh_texto {
+    color: var(--texto-destacado);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sh_icono {
+    color: #2A7AE4;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Animaciones en hover Skills */
+
+#s_php:hover, #s_html:hover, #s_css:hover, #s_js:hover, #s_react:hover {
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+
+#s_html:hover {
+    background: #e54c21;
+    transition: background 1s;
+}
+
+#s_html:hover > .sh_icono {
+    font-size: 8rem;
+    color: var(--blanco);
+    transition: font-size 1s, color 1s;
+}
+
+#s_html:hover > .sh_texto {
+    font-size: 2rem;
+    color: var(--blanco);
+    transition: 1s;
+}
+
+#s_js:hover {
+    background: #f7e018;
+    transition: background 1s;
+}
+
+#s_js:hover > .sh_icono {
+    font-size: 8rem;
+    color: var(--blanco);
+    transition: font-size 1s, color 1s;
+}
+
+#s_js:hover > .sh_texto {
+    font-size: 2rem;
+    color: var(--blanco);
+    transition: 1s;
+}
+
+#s_react:hover {
+    background: #1399c4;
+    transition: background 1s;
+}
+
+#s_react:hover > .sh_icono {
+    font-size: 8rem;
+    color: var(--blanco);
+    transition: font-size 1s, color 1s;
+}
+
+#s_react:hover > .sh_texto {
+    font-size: 2rem;
+    color: var(--blanco);
+    transition: 1s;
+}
+
+#s_css:hover {
+    background: #297bff;
+    transition: background 1s;
+}
+
+#s_css:hover > .sh_icono {
+    font-size: 8rem;
+    color: var(--blanco);
+    transition: font-size 1s, color 1s;
+}
+
+#s_css:hover > .sh_texto {
+    font-size: 2rem;
+    color: var(--blanco);
+    transition: 1s;
+}
+
+#s_php:hover {
+    background: #7377ad;
+    transition: background 1s;
+}
+
+#s_php:hover > .sh_icono {
+    font-size: 8rem;
+    color: var(--blanco);
+    transition: font-size 1s, color 1s;
+}
+
+#s_php:hover > .sh_texto {
+    font-size: 2rem;
+    color: var(--blanco);
+    transition: 1s;
+}
+
+/* Animaciones en hover Hobbies */
+
+#h_guitarra:hover, #h_gaming:hover, #h_mtg:hover, #h_rol:hover, #h_carpinteria:hover {
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+
+.hobbie_bg {
+    width: 0%;
+    height: auto;
+    z-index: 50;
+}
+
+#h_guitarra:hover > .hobbie_bg {
+    width: 100%;
+    transition: 1s;
+}
+
+#h_guitarra:hover > .sh_icono {
+    font-size: 0;
+    color: var(--blanco);
+    transition: font-size 1s, color 1s;
+}
+
+#h_guitarra:hover > .sh_texto {
+    font-size: 0;
+    color: var(--blanco);
+    transition: 1s;
+}
+
+#h_gaming:hover > .hobbie_bg {
+    width: 100%;
+    transition: 1s;
+}
+
+#h_gaming:hover > .sh_icono {
+    font-size: 0;
+    color: var(--blanco);
+    transition: font-size 1s, color 1s;
+}
+
+#h_gaming:hover > .sh_texto {
+    font-size: 0;
+    color: var(--blanco);
+    transition: 1s;
+}
+
+#h_mtg:hover > .hobbie_bg {
+    width: 100%;
+    transition: 1s;
+}
+
+#h_mtg:hover > .sh_icono {
+    font-size: 0;
+    color: var(--blanco);
+    transition: font-size 1s, color 1s;
+}
+
+#h_mtg:hover > .sh_texto {
+    font-size: 0;
+    color: var(--blanco);
+    transition: 1s;
+}
+
+#h_rol:hover > .hobbie_bg {
+    width: 100%;
+    transition: 1s;
+}
+
+#h_rol:hover > .sh_icono {
+    font-size: 0;
+    color: var(--blanco);
+    transition: font-size 1s, color 1s;
+}
+
+#h_rol:hover > .sh_texto {
+    font-size: 0;
+    color: var(--blanco);
+    transition: 1s;
+}
+
+#h_carpinteria:hover > .hobbie_bg {
+    width: 100%;
+    transition: 1s;
+}
+
+#h_carpinteria:hover > .sh_icono {
+    font-size: 0;
+    color: var(--blanco);
+    transition: font-size 1s, color 1s;
+}
+
+#h_carpinteria:hover > .sh_texto {
+    font-size: 0;
+    color: var(--blanco);
+    transition: 1s;
+}

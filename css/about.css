@@ -1,0 +1,37 @@
+.about {
+    width: auto;
+    background-color: var(--fondo-about);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 4rem;
+}
+
+.about__inner {
+    width: 70%;
+    display: flex;
+    justify-items: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.about__titulo {
+    font-size: 2rem; 
+    color: var(--texto-destacado);
+    font-style: normal;
+    font-weight: 700;
+}
+
+.about__texto {
+    color: var(--texto-destacado);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 70%;
+}

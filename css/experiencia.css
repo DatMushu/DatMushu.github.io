@@ -5,3 +5,77 @@
     gap: 2rem;
     padding-top: 2rem;
 }
+
+.experiencia__items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 71rem;
+    height: 25.375rem;
+}
+
+.experiencia__side {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.experiencia__titulo {
+    font-family: var(--Raleway);
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.experiencia__texto {
+    font-family: var(--Raleway);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.experiencia__botones {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    height: auto;
+    padding-top: 1rem;
+}
+
+.experiencia__repositorio {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 0.625rem;
+    font-family: var(--Raleway);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--azul);
+    border: 1px solid var(--azul);
+    height: auto;
+}
+
+.experiencia__demo {
+    background: var(--azul);
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    align-items: center;
+    gap: 0.625rem;
+    font-family: var(--Raleway);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--blanco);
+    border: 1px solid var(--azul);
+    height: auto;
+}

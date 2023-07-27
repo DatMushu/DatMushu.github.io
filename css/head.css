@@ -1,10 +1,10 @@
 .head {
     font-family: var(--raleway);
-    width: 90%;
+    width: 100%;
     height: 5rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #ffffff;
 }
@@ -34,4 +34,43 @@
     margin-right: .7rem;
     margin-left: 0;
     margin-bottom: 1.25rem;
+}
+
+/* Animaciones */
+
+#nav_about:hover {
+    transform: scale(1.2);
+    font-weight: 700;
+    transition: all 0.6s ease;
+}
+
+#nav_skills:hover {
+    transform: scale(1.2);
+    font-weight: 700;
+    transition: all 0.6s ease;
+}
+
+#nav_hobbies:hover {
+    transform: scale(1.2);
+    font-weight: 700;
+    transition: all 0.6s ease;
+}
+
+#nav_formacion:hover {
+    transform: scale(1.2);
+    font-weight: 700;
+    transition: all 0.6s ease;
+}
+
+#nav_proyectos:hover {
+    transform: scale(1.2);
+    font-weight: 700;
+    transition: all 0.6s ease;
+}
+
+#nav_contacto:hover {
+    transform: scale(1.2);
+    font-weight: 700;
+    color: var(--azul);
+    transition: all 0.6s ease;
 }

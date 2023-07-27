@@ -18,40 +18,40 @@
         <script src="https://kit.fontawesome.com/798fdeff11.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <header class="head container">
+        <header class="head">
             <section class="head__logoContainer">
                 <i class="fa-solid fa-code fa-bounce head__logo"></i>
                 <p class="head__logo texto__bold">Manuel Díaz Vidal</p>
             </section>
             <nav class="head__nav">
                 <ul>
-                    <li class="head__listItems"><a href="#about">Sobre mi</a></li>
-                    <li class="head__listItems"><a href="#skills">Skills</a></li>
-                    <li class="head__listItems"><a href="#hobbies">Hobbies</a></li>
-                    <li class="head__listItems"><a href="#formacion">Formación</a></li>
-                    <li class="head__listItems"><a href="#proyectos">Proyectos</a></li>
-                    <li class="head__listItems texto__bold"><a href="mailto:contacto@manudev.cl">contacto@manudev.cl</a></li>
+                    <li class="head__listItems" id="nav_about"><a href="#about">Sobre mi</a></li>
+                    <li class="head__listItems" id="nav_skills"><a href="#skills">Skills</a></li>
+                    <li class="head__listItems" id="nav_hobbies"><a href="#hobbies">Hobbies</a></li>
+                    <li class="head__listItems" id="nav_formacion"><a href="#formacion">Formación</a></li>
+                    <li class="head__listItems" id="nav_proyectos"><a href="#proyectos">Proyectos</a></li>
+                    <li class="head__listItems texto__bold" id="nav_contacto"><a href="mailto:contacto@manudev.cl">contacto@manudev.cl</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <section class="hero container">
+            <section class="hero">
                 <div class="hero__titulo">
                     <h1 class="hero__titulo-h1 texto__bold">Hola, mi nombre es Manuel Díaz y construyo páginas web</h1>
                     <p class="hero__titulo-texto">Formado en la UCSC, me he perfeccionado en diversos cursos y talleres sobre programación. Actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</p>
                     <div class="hero__sociales">
                         <ul>
-                            <li class="hero__sociales-items"><a href="https://github.com/DatMushu" target="_blank">Github <i class="fa-brands fa-github"></i></a></li>
-                            <li class="hero__sociales-items"><a href="https://www.linkedin.com/in/manuel-diaz-vidal/" target="_blank">Linkedin <i class="fa-brands fa-linkedin"></i></a></li>
-                            <li class="hero__sociales-items"><a href="https://www.instagram.com/manueldiazv" target="_blank">Instagram <i class="fa-brands fa-instagram"></i></a></li>
-                            <li class="hero__sociales-items"><a href="https://www.discordapp.com/users/datmushu" target="_blank">Discord <i class="fa-brands fa-discord"></i></a></li>
-                            <li class="hero__sociales-items"><a href="" target="_blank">Currículo <i class="fa-solid fa-file"></i></a></li>
+                            <li class="hero__sociales-items" id="hero_github"><a href="https://github.com/DatMushu" target="_blank">Github <i class="fa-brands fa-github"></i></a></li>
+                            <li class="hero__sociales-items" id="hero_linkedin"><a href="https://www.linkedin.com/in/manuel-diaz-vidal/" target="_blank">Linkedin <i class="fa-brands fa-linkedin"></i></a></li>
+                            <li class="hero__sociales-items" id="hero_instagram"><a href="https://www.instagram.com/manueldiazv" target="_blank">Instagram <i class="fa-brands fa-instagram"></i></a></li>
+                            <li class="hero__sociales-items" id="hero_discord"><a href="https://www.discordapp.com/users/datmushu" target="_blank">Discord <i class="fa-brands fa-discord"></i></a></li>
+                            <li class="hero__sociales-items" id="hero_curriculo"><a href="" target="_blank">Currículo <i class="fa-solid fa-file"></i></a></li>
                         </ul>
                     </div>
                 </div>
                 <img class="hero__foto" src="assets/foto1.jpg" alt="">
             </section>
-            <section class="about container" id="about">
+            <section class="about" id="about">
                 <div class="about__inner">
                     <h2 class="about__titulo texto__bold">Sobre mi</h2>
                     <p class="about__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
@@ -137,13 +137,13 @@
             <section class="experiencia">
                 <h2 class="experiencia__titulo">Experiencia profesional</h2>
                 <div class="experiencia__items">
-                    <img src="" alt="" class="experiencia__imagen">
+                    <img src="assets/Rectangle.png" alt="" class="experiencia__imagen">
                     <div class="experiencia__side">
-                        <p class="experiencia__titulo"></p>
-                        <p class="experiencia__texto"></p>
-                        <div>
-                            <button class="experiencia__repositorio"></button>
-                            <button class="experiencia__demo"></button>
+                        <p class="experiencia__titulo">Experiencia Título</p>
+                        <p class="experiencia__texto">Experiencia texto side (origen del proyecto)</p>
+                        <div class="experiencia__botones">
+                            <button class="experiencia__repositorio">Repositorio</button>
+                            <button class="experiencia__demo">Ver Demo</button>
                         </div>
                     </div>
                 </div>

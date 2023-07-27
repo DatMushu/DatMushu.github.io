@@ -1,13 +1,13 @@
 .hero {
     font-family: var(--raleway);
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
     padding-bottom: 2rem;
-    background: #fff;
+    background: var(--blanco);
 }
 
 .hero__titulo {
@@ -39,7 +39,7 @@
     border-radius: 50%;
 }
 
-.hero_sociales {
+.hero__sociales {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -53,3 +53,35 @@
     padding-right: 2rem;
     padding-left: 0;
 }
+
+ /* Animaciones */
+
+ #hero_github:hover {
+    transform: scale(1.2);
+    font-weight: 700;
+    transition: all 0.6s ease;
+ }
+
+ #hero_linkedin:hover {
+    transform: scale(1.2);
+    font-weight: 700;
+    transition: all 0.6s ease;
+ }
+
+ #hero_instagram:hover {
+    transform: scale(1.2);
+    font-weight: 700;
+    transition: all 0.6s ease;
+ }
+
+ #hero_discord:hover {
+    transform: scale(1.2);
+    font-weight: 700;
+    transition: all 0.6s ease;
+ }
+
+ #hero_curriculo:hover {
+    transform: scale(1.2);
+    font-weight: 700;
+    transition: all 0.6s ease;
+ }

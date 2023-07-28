@@ -55,7 +55,7 @@
 
 #s_php:hover, #s_html:hover, #s_css:hover, #s_js:hover, #s_react:hover {
     transform: scale(1.1);
-    transition: transform 1s;
+    transition: all 1s ease;
 }
 
 #s_html:hover {

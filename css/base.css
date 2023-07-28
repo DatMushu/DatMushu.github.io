@@ -1,11 +1,19 @@
-:root {
+.light {
     --texto-normal: #000000;
     --texto-destacado: #464646;
     --fondo-about: #EAF2FD;
     --raleway: 'Raleway', sans-serif;
+    --fondo-destacado: #ffffff;
     --blanco: #ffffff;
     --azul: #2A7AE4;
     --negro: #000000;
+    --linkedin: #0a66c2;
+}
+
+.dark {
+    --texto-normal: #ebf1ff;
+    --texto-destacado: #9fb4fa;
+    --fondo-destacado: #000033;
 }
 
 html {

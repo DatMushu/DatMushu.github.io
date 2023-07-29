@@ -58,13 +58,13 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    color: var(--azul);
-    border: 1px solid var(--azul);
+    color: var(--boton-xp);
+    border: 1px solid var(--boton-xp);
     height: auto;
 }
 
 .experiencia__demo {
-    background: var(--azul);
+    background: var(--boton-xp);
     display: flex;
     justify-content: center;
     padding: 1rem;
@@ -75,7 +75,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    color: var(--blanco);
-    border: 1px solid var(--azul);
+    color: var(--texto-contraste);
+    border: 1px solid var(--boton-xp);
     height: auto;
 }

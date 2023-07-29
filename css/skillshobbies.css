@@ -32,7 +32,7 @@
     justify-content: flex-end;
     align-items: flex-start;
     gap: 0.5rem;
-    background: var(--blanco);
+    background: var(--fondo-destacado);
 }
 
 .sh_texto {
@@ -44,7 +44,7 @@
 }
 
 .sh_icono {
-    color: #2A7AE4;
+    color: var(--iconos-skill);
     font-size: 2rem;
     font-style: normal;
     font-weight: 400;
@@ -59,87 +59,87 @@
 }
 
 #s_html:hover {
-    background: #e54c21;
+    background: var(--skill-html);
     transition: background 1s;
 }
 
 #s_html:hover > .sh_icono {
     font-size: 8rem;
-    color: var(--blanco);
+    color: var(--icono-hover);
     transition: font-size 1s, color 1s;
 }
 
 #s_html:hover > .sh_texto {
     font-size: 2rem;
-    color: var(--blanco);
+    color: var(--icono-hover);
     transition: 1s;
 }
 
 #s_js:hover {
-    background: #f7e018;
+    background: var(--skill-js);
     transition: background 1s;
 }
 
 #s_js:hover > .sh_icono {
     font-size: 8rem;
-    color: var(--blanco);
+    color: var(--icono-hover);
     transition: font-size 1s, color 1s;
 }
 
 #s_js:hover > .sh_texto {
     font-size: 2rem;
-    color: var(--blanco);
+    color: var(--icono-hover);
     transition: 1s;
 }
 
 #s_react:hover {
-    background: #1399c4;
+    background: var(--skill-react);
     transition: background 1s;
 }
 
 #s_react:hover > .sh_icono {
     font-size: 8rem;
-    color: var(--blanco);
+    color: var(--icono-hover);
     transition: font-size 1s, color 1s;
 }
 
 #s_react:hover > .sh_texto {
     font-size: 2rem;
-    color: var(--blanco);
+    color: var(--icono-hover);
     transition: 1s;
 }
 
 #s_css:hover {
-    background: #297bff;
+    background: var(--skill-css);
     transition: background 1s;
 }
 
 #s_css:hover > .sh_icono {
     font-size: 8rem;
-    color: var(--blanco);
+    color: var(--icono-hover);
     transition: font-size 1s, color 1s;
 }
 
 #s_css:hover > .sh_texto {
     font-size: 2rem;
-    color: var(--blanco);
+    color: var(--icono-hover);
     transition: 1s;
 }
 
 #s_php:hover {
-    background: #7377ad;
+    background: var(--skill-php);
     transition: background 1s;
 }
 
 #s_php:hover > .sh_icono {
     font-size: 8rem;
-    color: var(--blanco);
+    color: var(--icono-hover);
     transition: font-size 1s, color 1s;
 }
 
 #s_php:hover > .sh_texto {
     font-size: 2rem;
-    color: var(--blanco);
+    color: var(--icono-hover);
     transition: 1s;
 }
 
@@ -163,13 +163,13 @@
 
 #h_guitarra:hover > .sh_icono {
     font-size: 0;
-    color: var(--blanco);
+    color: var(--icono-hover);
     transition: font-size 1s, color 1s;
 }
 
 #h_guitarra:hover > .sh_texto {
     font-size: 0;
-    color: var(--blanco);
+    color: var(--icono-hover);
     transition: 1s;
 }
 
@@ -180,13 +180,13 @@
 
 #h_gaming:hover > .sh_icono {
     font-size: 0;
-    color: var(--blanco);
+    color: var(--icono-hover);
     transition: font-size 1s, color 1s;
 }
 
 #h_gaming:hover > .sh_texto {
     font-size: 0;
-    color: var(--blanco);
+    color: var(--icono-hover);
     transition: 1s;
 }
 
@@ -197,13 +197,13 @@
 
 #h_mtg:hover > .sh_icono {
     font-size: 0;
-    color: var(--blanco);
+    color: var(--icono-hover);
     transition: font-size 1s, color 1s;
 }
 
 #h_mtg:hover > .sh_texto {
     font-size: 0;
-    color: var(--blanco);
+    color: var(--icono-hover);
     transition: 1s;
 }
 
@@ -214,13 +214,13 @@
 
 #h_rol:hover > .sh_icono {
     font-size: 0;
-    color: var(--blanco);
+    color: var(--icono-hover);
     transition: font-size 1s, color 1s;
 }
 
 #h_rol:hover > .sh_texto {
     font-size: 0;
-    color: var(--blanco);
+    color: var(--icono-hover);
     transition: 1s;
 }
 
@@ -231,12 +231,12 @@
 
 #h_carpinteria:hover > .sh_icono {
     font-size: 0;
-    color: var(--blanco);
+    color: var(--icono-hover);
     transition: font-size 1s, color 1s;
 }
 
 #h_carpinteria:hover > .sh_texto {
     font-size: 0;
-    color: var(--blanco);
+    color: var(--icono-hover);
     transition: 1s;
 }

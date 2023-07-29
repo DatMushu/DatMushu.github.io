@@ -1,13 +1,21 @@
 .light {
     --texto-normal: #000000;
     --texto-destacado: #464646;
-    --fondo-about: #EAF2FD;
-    --raleway: 'Raleway', sans-serif;
+    --texto-contraste: #ffffff;
     --fondo-destacado: #ffffff;
-    --blanco: #ffffff;
-    --azul: #2A7AE4;
+    --fondo-about: #EAF2FD;
+    --fondo-2: #f5f5f5;
+    --raleway: 'Raleway', sans-serif;
+    --icono-hover: #ffffff;
+    --boton-xp: #2A7AE4;
+    --iconos-skill: #2A7AE4;
     --negro: #000000;
     --linkedin: #0a66c2;
+    --skill-html: #e54c21; 
+    --skill-js: #f7e018;
+    --skill-react: #1399c4;
+    --skill-css: #297bff;
+    --skill-php: #7377ad;
 }
 
 .dark {
@@ -22,7 +30,7 @@ html {
 
 body {
     font-family: var(--raleway);
-    background-color: #f5f5f5;
+    background-color: var(--fondo-2);
 }
 
 .container {

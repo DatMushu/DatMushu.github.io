@@ -5,7 +5,7 @@
     align-items: center;
     gap: 2rem;
     align-self: stretch;
-    background: #EAF2FD;
+    background: var(--fondo-about);
 }
 
 .formacion__titulo {
@@ -30,7 +30,7 @@
     justify-content: center;
     align-items: center;
     gap: 0.625rem;
-    background: var(--blanco);
+    background: var(--fondo-destacado);
 }
 
 .formacion__imagen {

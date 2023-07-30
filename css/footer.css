@@ -1,0 +1,18 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--fondo-destacado);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.footer__texto {
+    text-align: center;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

@@ -1,0 +1,26 @@
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.texto_sin_encriptar {
+    display: flex;
+    align-items: stretch;
+    width: 60%;
+}
+
+.seccion_derecha {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

@@ -1,0 +1,86 @@
+.contacto {
+    display: flex;
+    width: auto;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.625rem;
+    background: var(--fondo-about);
+    margin: 0 0;
+}
+
+.contacto__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    gap: 1rem;
+}
+
+.contacto__side {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.contacto__cajatexto {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.contacto__titulo {
+    text-align: start;
+}
+
+.contacto__form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+}
+
+input {
+    width: 100%;
+    border-radius: 0.25rem;
+}
+
+.contacto__boton {
+    background: var(--boton-xp);
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    align-items: center;
+    gap: 0.625rem;
+    font-family: var(--Raleway);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--texto-contraste);
+    border: 1px solid var(--boton-xp);
+    height: auto;
+}
+
+label {
+    color: var(--preto-50, #A2A2A2);
+    font-family: Raleway;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem
+}
+
+.form__labelbox {
+    display: flex;
+    width: 100%;
+    height: 3.5rem;
+    padding-top: 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4375rem;
+}

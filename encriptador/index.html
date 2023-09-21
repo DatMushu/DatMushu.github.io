@@ -10,26 +10,30 @@
             <link rel="stylesheet" href="css/contenedor.css">
             <link rel="stylesheet" href="css/footer.css">
         </head>
-    </html>
-    <body class="light">
-        <header>
-            <img src="assets/logo.svg" alt="" class="head__logo">
-            <h1>Encriptador de Texto</h1>
-        </header>
-        <main>
-            <section class="contenedor">
-                <input type="text" placeholder="Ingrese texto a encriptar" class="texto_sin_encriptar">
-                <div class="seccion_derecha">
-                    <input type="text" placeholder="aqui aparecera el texto encriptado" class="texto_encriptado">
+        <body>
+            <header>
+                <img src="/imagenes/logoalura.png" alt="Logo de alura con la inicial da letra a">
+            </header>
+            <main>
+                <section>
+                    <textarea class="input-texto" cols="40" rows="6" placeholder="Ingrese el texto aqui"></textarea>
+                    <div id="div-desaparece">
+                        <h6 class="informacion">Solo letras minúsculas y sin acentos.</h6>
+                    </div>
                     <div class="botones">
-                        <button class="boton_encriptar">Encriptar</button>
-                        <button class="boton_copiar">Copiar</button>
-                    </div>     
-                </div>
-            </section>
-        </main>
-        <footer>
-            <p>Desarrollado por Manuel Diaz Vidal</p>
-            <p>2023</p>
-        </footer>
-    </body>
+                        <button class="encriptar" onclick="btnEncriptar()">
+                            Encriptar
+                        </button>
+                        <button class="desencriptar" onclick="btnDesencriptar()">
+                            Desencriptar
+                        </button>
+                    </div>
+                </section>        
+                <section class="mensaje-box">
+                    <textarea class="mensaje" cols="18" rows="8"></textarea>
+                    <button class="copiar" onclick="copiar()">Copiar</button>
+                </section>        
+            </main>
+            <script src="script.js"></script>
+        </body>        
+    </html>

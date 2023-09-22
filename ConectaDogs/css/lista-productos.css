@@ -1,0 +1,129 @@
+/*-----------------------slide-----------------------*/
+.slider {
+	height: 415px;
+	background-image: url(../assets/banner-image.png);
+	background-size: 100vw;
+	background-repeat: no-repeat;
+	padding: 32px 32px 0px 32px;
+}
+
+.slide {
+	width: 751px;
+	height: 261px;
+	padding-left: 120px;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+}
+
+.slide h1 {
+	color: var(--texto-slider);
+	font-size: 52px;
+	font-weight: bold;
+	text-shadow: 2px 2px 0px #323131, 5px 4px 0px rgb(0 0 0 / 15%);
+}
+
+.slide h4 {
+	color: var(--texto-slider);
+	font-size: 22px;
+	font-weight: bold;
+	text-shadow: 2px 2px 0px #323131, 5px 4px 0px rgb(0 0 0 / 15%);
+}
+
+.slide button {
+	background-color: var(--azul-slider);
+	border: none;
+	color: var(--texto-slider);
+	height: 51px;
+	width: 130px;
+}
+
+.slide button:hover {
+	background: var(--texto-slider);
+	border: solid 1px var(--azul-slider);
+	color: var(--azul-slider);
+	transition: all 0.2s;
+}
+
+/*-----------------------Main-----------------------*/
+
+.productos {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+.seccion-productos {
+	height: 100%;
+	padding: 0px 150px 0px 150px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.tituloProductos {
+	padding: 20px 110px 0px 120px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.tituloProductos .titulo {
+	font-size: 32px;
+	font-weight: bold;
+	padding: 30px;
+	color: #464646;
+}
+
+.mostrar-mas {
+	font-weight: bold;
+	margin-top: 25px;
+	color: var(--azul-slider);
+	display: flex;
+	padding: 30px;
+}
+
+.btn-verTodo {
+	display: flex;
+	gap: 0.4rem;
+	margin-right: 10px;
+}
+
+.producto {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 32px;
+}
+
+.verTodo {
+	width: 15px;
+	height: 15px;
+}
+
+.product-name {
+	color: #464646;
+	font-weight: 500;
+	font-size: 14px;
+}
+.precio {
+	color: #464646;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.ver-producto {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+img {
+	width: 176px;
+	height: 174px;
+}
+
+h1,
+p {
+	margin: 8px 0px 8px 0px;
+}

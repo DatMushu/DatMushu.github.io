@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/nuevo/static/css/main.f94b2ce2.css",
+    "main.js": "/nuevo/static/js/main.0e8c2412.js",
+    "static/js/346.4084a442.chunk.js": "/nuevo/static/js/346.4084a442.chunk.js",
+    "static/media/video.mp4": "/nuevo/static/media/video.3c872979cd5be925c736.mp4",
+    "static/media/about.png": "/nuevo/static/media/about.e7aa5078aabb9cbfb24b.png",
+    "static/media/bg.jpg": "/nuevo/static/media/bg.fb6b97f7264f49b7c19f.jpg",
+    "static/media/gcs.png": "/nuevo/static/media/gcs.d4fe3b8393c384e2e0c8.png",
+    "static/media/divers_supply.png": "/nuevo/static/media/divers_supply.c018ffdf7f197bb5d4ad.png",
+    "static/media/iso45001.png": "/nuevo/static/media/iso45001.cdfd9f82e0399034ae90.png",
+    "static/media/dan.png": "/nuevo/static/media/dan.9f0a6b17ec8d60a81f87.png",
+    "static/media/frogman-sin-fondo-blanco.png": "/nuevo/static/media/frogman-sin-fondo-blanco.a0634d2b36cb12b819b4.png",
+    "static/media/yadran.png": "/nuevo/static/media/yadran.d2a1c9ca3bc745470b8d.png",
+    "static/media/iso9001.png": "/nuevo/static/media/iso9001.d9352e29e20645f28acf.png",
+    "static/media/hero-overlay.png": "/nuevo/static/media/hero-overlay.5fb27360c1e39cb28c06.png",
+    "static/media/qr.png": "/nuevo/static/media/qr.c123878cd637117c385f.png",
+    "static/media/deeptrekker.png": "/nuevo/static/media/deeptrekker.8bff78c3c118eff719a3.png",
+    "static/media/frogman.png": "/nuevo/static/media/frogman.48c760b9ed1d1997f6e0.png",
+    "static/media/camanchaca.png": "/nuevo/static/media/camanchaca.36e4f9222cd8a50e03b7.png",
+    "static/media/novofish.png": "/nuevo/static/media/novofish.dae3a258a746f828831e.png",
+    "static/media/australis.svg": "/nuevo/static/media/australis.635be78cc120dcd9800325ad10e04665.svg",
+    "static/media/ico1.svg": "/nuevo/static/media/ico1.f3f9ebf0f615248642146badf70a1799.svg",
+    "static/media/achs.svg": "/nuevo/static/media/achs.d54a9fb78d1588db890d7df28fb8b018.svg",
+    "static/media/ico2.svg": "/nuevo/static/media/ico2.4b25a50f2f6f40094091cadc9f550147.svg",
+    "index.html": "/nuevo/index.html",
+    "main.f94b2ce2.css.map": "/nuevo/static/css/main.f94b2ce2.css.map",
+    "main.0e8c2412.js.map": "/nuevo/static/js/main.0e8c2412.js.map",
+    "346.4084a442.chunk.js.map": "/nuevo/static/js/346.4084a442.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f94b2ce2.css",
+    "static/js/main.0e8c2412.js"
+  ]
+}

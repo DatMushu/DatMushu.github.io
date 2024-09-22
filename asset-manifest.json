@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.052bfb45.css",
-    "main.js": "/static/js/main.79e5eabe.js",
+    "main.css": "/static/css/main.7bcf4fe9.css",
+    "main.js": "/static/js/main.16543a21.js",
     "static/js/346.4084a442.chunk.js": "/static/js/346.4084a442.chunk.js",
     "static/media/video.mp4": "/static/media/video.3c872979cd5be925c736.mp4",
+    "static/media/pivot.png": "/static/media/pivot.6bf610d27ec36869af8f.png",
     "static/media/about.png": "/static/media/about.e7aa5078aabb9cbfb24b.png",
+    "static/media/dtg3.png": "/static/media/dtg3.d4e486acdcfa6d02c074.png",
+    "static/media/equipo.png": "/static/media/equipo.c7e2f22d0acac9f1630c.png",
     "static/media/bg.jpg": "/static/media/bg.fb6b97f7264f49b7c19f.jpg",
     "static/media/gcs.png": "/static/media/gcs.d4fe3b8393c384e2e0c8.png",
     "static/media/divers_supply.png": "/static/media/divers_supply.c018ffdf7f197bb5d4ad.png",
@@ -24,12 +27,12 @@
     "static/media/achs.svg": "/static/media/achs.d54a9fb78d1588db890d7df28fb8b018.svg",
     "static/media/ico2.svg": "/static/media/ico2.4b25a50f2f6f40094091cadc9f550147.svg",
     "index.html": "/index.html",
-    "main.052bfb45.css.map": "/static/css/main.052bfb45.css.map",
-    "main.79e5eabe.js.map": "/static/js/main.79e5eabe.js.map",
+    "main.7bcf4fe9.css.map": "/static/css/main.7bcf4fe9.css.map",
+    "main.16543a21.js.map": "/static/js/main.16543a21.js.map",
     "346.4084a442.chunk.js.map": "/static/js/346.4084a442.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.052bfb45.css",
-    "static/js/main.79e5eabe.js"
+    "static/css/main.7bcf4fe9.css",
+    "static/js/main.16543a21.js"
   ]
 }

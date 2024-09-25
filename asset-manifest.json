@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b3fd5ad1.css",
-    "main.js": "/static/js/main.7a5b71f7.js",
+    "main.css": "/static/css/main.d7c33c49.css",
+    "main.js": "/static/js/main.12367404.js",
     "static/js/346.4084a442.chunk.js": "/static/js/346.4084a442.chunk.js",
     "static/media/video.mp4": "/static/media/video.3c872979cd5be925c736.mp4",
     "static/media/3.png": "/static/media/3.bce77282041537c1b1e1.png",
@@ -14,30 +14,32 @@
     "static/media/bg.jpg": "/static/media/bg.fb6b97f7264f49b7c19f.jpg",
     "static/media/gcs.png": "/static/media/gcs.d4fe3b8393c384e2e0c8.png",
     "static/media/divers_supply.png": "/static/media/divers_supply.c018ffdf7f197bb5d4ad.png",
-    "static/media/iso45001.png": "/static/media/iso45001.cdfd9f82e0399034ae90.png",
     "static/media/dan.png": "/static/media/dan.9f0a6b17ec8d60a81f87.png",
     "static/media/bg-down.png": "/static/media/bg-down.630f63ccb5143140aec0.png",
     "static/media/bg-colores.png": "/static/media/bg-colores.a0636311fd2d62e6da09.png",
+    "static/media/pymes.png": "/static/media/pymes.c5b0eacca53fd36ababd.png",
+    "static/media/minsal.png": "/static/media/minsal.26f2167ce0a61e1b1ec7.png",
     "static/media/frogman-sin-fondo-blanco.png": "/static/media/frogman-sin-fondo-blanco.a0634d2b36cb12b819b4.png",
     "static/media/yadran.png": "/static/media/yadran.d2a1c9ca3bc745470b8d.png",
-    "static/media/iso9001.png": "/static/media/iso9001.d9352e29e20645f28acf.png",
     "static/media/hero-overlay.png": "/static/media/hero-overlay.5fb27360c1e39cb28c06.png",
     "static/media/qr.png": "/static/media/qr.c123878cd637117c385f.png",
+    "static/media/iso45001.png": "/static/media/iso45001.4a07ef2c23578fa18285.png",
     "static/media/deeptrekker.png": "/static/media/deeptrekker.8bff78c3c118eff719a3.png",
     "static/media/frogman.png": "/static/media/frogman.48c760b9ed1d1997f6e0.png",
     "static/media/camanchaca.png": "/static/media/camanchaca.36e4f9222cd8a50e03b7.png",
+    "static/media/iso9001.png": "/static/media/iso9001.0af4b5a9dfdf733327c7.png",
     "static/media/novofish.png": "/static/media/novofish.dae3a258a746f828831e.png",
     "static/media/australis.svg": "/static/media/australis.635be78cc120dcd9800325ad10e04665.svg",
     "static/media/ico1.svg": "/static/media/ico1.f3f9ebf0f615248642146badf70a1799.svg",
     "static/media/achs.svg": "/static/media/achs.d54a9fb78d1588db890d7df28fb8b018.svg",
     "static/media/ico2.svg": "/static/media/ico2.4b25a50f2f6f40094091cadc9f550147.svg",
     "index.html": "/index.html",
-    "main.b3fd5ad1.css.map": "/static/css/main.b3fd5ad1.css.map",
-    "main.7a5b71f7.js.map": "/static/js/main.7a5b71f7.js.map",
+    "main.d7c33c49.css.map": "/static/css/main.d7c33c49.css.map",
+    "main.12367404.js.map": "/static/js/main.12367404.js.map",
     "346.4084a442.chunk.js.map": "/static/js/346.4084a442.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3fd5ad1.css",
-    "static/js/main.7a5b71f7.js"
+    "static/css/main.d7c33c49.css",
+    "static/js/main.12367404.js"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.d7c33c49.css",
-    "main.js": "/static/js/main.426cbc3d.js",
+    "main.css": "/static/css/main.db54efb4.css",
+    "main.js": "/static/js/main.13c58f07.js",
     "static/js/346.4084a442.chunk.js": "/static/js/346.4084a442.chunk.js",
     "static/media/video.mp4": "/static/media/video.3c872979cd5be925c736.mp4",
-    "static/media/3.png": "/static/media/3.bce77282041537c1b1e1.png",
+    "static/media/3.png": "/static/media/3.2aeb7ea6ca0c1c97861c.png",
     "static/media/pivot.png": "/static/media/pivot.6bf610d27ec36869af8f.png",
     "static/media/1.png": "/static/media/1.8a8d2d1492c06cbcf23e.png",
     "static/media/about.png": "/static/media/about.e7aa5078aabb9cbfb24b.png",
@@ -29,17 +29,19 @@
     "static/media/camanchaca.png": "/static/media/camanchaca.36e4f9222cd8a50e03b7.png",
     "static/media/iso9001.png": "/static/media/iso9001.0af4b5a9dfdf733327c7.png",
     "static/media/novofish.png": "/static/media/novofish.dae3a258a746f828831e.png",
+    "static/media/notion.png": "/static/media/notion.7aa264a898951e791ee3.png",
     "static/media/australis.svg": "/static/media/australis.635be78cc120dcd9800325ad10e04665.svg",
     "static/media/ico1.svg": "/static/media/ico1.f3f9ebf0f615248642146badf70a1799.svg",
     "static/media/achs.svg": "/static/media/achs.d54a9fb78d1588db890d7df28fb8b018.svg",
+    "static/media/buk.svg": "/static/media/buk.69d1587a2f897477ca03c77b7047d8b7.svg",
     "static/media/ico2.svg": "/static/media/ico2.4b25a50f2f6f40094091cadc9f550147.svg",
     "index.html": "/index.html",
-    "main.d7c33c49.css.map": "/static/css/main.d7c33c49.css.map",
-    "main.426cbc3d.js.map": "/static/js/main.426cbc3d.js.map",
+    "main.db54efb4.css.map": "/static/css/main.db54efb4.css.map",
+    "main.13c58f07.js.map": "/static/js/main.13c58f07.js.map",
     "346.4084a442.chunk.js.map": "/static/js/346.4084a442.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7c33c49.css",
-    "static/js/main.426cbc3d.js"
+    "static/css/main.db54efb4.css",
+    "static/js/main.13c58f07.js"
   ]
 }
